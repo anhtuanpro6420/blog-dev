@@ -30,6 +30,7 @@
 
     &-description {
       font-size: $typographic-base-font-size;
+      color: #888;
       @include line-height(1);
       @include margin-bottom(.75);
     }
@@ -40,10 +41,6 @@
         color: $color-base;
         font-weight: 600;
         text-transform: uppercase;
-      }
-
-      &-divider {
-        margin: 0 5px;
       }
 
       &-category {
@@ -66,7 +63,7 @@
 
     &-readmore {
       font-size: $typographic-base-font-size;
-      color: $color-primary;
+      color: $color-readmore;
 
       &:hover,
       &:focus {

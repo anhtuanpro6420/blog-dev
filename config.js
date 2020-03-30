@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Si',
-    photo: '/photo.jpg',
+    photo: '/photo.svg',
     bio: 'Hi I am Si. Welcome to my blog!',
     contacts: {
       email: 'anhtuanpro6420@gmail.com',
