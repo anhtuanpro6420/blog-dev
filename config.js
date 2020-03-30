@@ -21,7 +21,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Hi I am Si',
+    name: 'Si',
     photo: '/photo.svg',
     bio: 'Welcome to my blog!',
     contacts: {
