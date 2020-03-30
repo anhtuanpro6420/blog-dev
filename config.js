@@ -18,16 +18,12 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'Si',
+    name: 'Hi I am Si',
     photo: '/photo.svg',
-    bio: 'Hi I am Si. Welcome to my blog!',
+    bio: 'Welcome to my blog!',
     contacts: {
       email: 'anhtuanpro6420@gmail.com',
       facebook: 'https://www.facebook.com/hi.i.am.si',
