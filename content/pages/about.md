@@ -9,11 +9,9 @@ draft: false
 
 *I live in Da Nang, Viet Nam. I am a developer and I have almost 4 years of experience in development.*
 
-*I have experience in Javascript with some stack like MERN - MEAN stack, knowledge about JAM stack and some others skill.*
+*I have experience in Javascript with some stacks like MERN - MEAN stack, knowledge about JAM stack and some other skills.*
 
 *I love coding and football. Feel free to contact me. :D*
-
-
 
 *Email: anhtuanpro6420@gmail.com*
 
