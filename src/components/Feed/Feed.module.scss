@@ -3,6 +3,8 @@
 
 .feed {
   &__item {
+    border-bottom: 1px solid rgba(0,0,0,.0785);
+    padding-bottom: 25px;
     @include margin-bottom(1.25);
 
     &:last-child {
@@ -27,7 +29,6 @@
         &:hover,
         &:focus {
           color: $color-base;
-          border-bottom: 1px solid $color-base;
         }
 
       }
@@ -66,7 +67,7 @@
     }
 
     &-readmore {
-      font-size: $typographic-base-font-size;
+      font-size: $typographic-small-font-size;
       color: $color-readmore;
 
       &:hover,
