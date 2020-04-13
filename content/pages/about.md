@@ -19,4 +19,4 @@ Linkedin: <https://www.linkedin.com/in/hiiamsi/>
 
 My resume:
 
-![My resume](/media/screen-shot-2020-04-13-at-15.45.52.png "My resume")
+![My resume](/media/screen-shot-2020-04-13-at-16.21.57.png "My resume")
