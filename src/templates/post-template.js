@@ -6,6 +6,7 @@ import SideBar from '../components/Sidebar';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
+import BackButton from '../components/commons/BackButton';
 
 type Props = {
   data: {
@@ -21,7 +22,8 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
-      <SideBar />
+      {/* <SideBar /> */}
+      <BackButton />
       <Post post={data.markdownRemark} />
     </Layout>
   );
