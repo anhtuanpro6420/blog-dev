@@ -1,6 +1,6 @@
 ---
 template: post
-title: Độ phức tạp của thuật toán!
+title: Độ phức tạp của thuật toán
 slug: big-o-time-complexity-space-complexity
 draft: false
 date: 2020-04-13T08:33:16.738Z
@@ -9,37 +9,37 @@ category: Data Structure and Algorithm
 tags:
   - Data Structure and Algorithm
 ---
-Trước khi tìm hiểu Big-O là gì thì mình xin nhắc lại khái niệm thuật toán là gì.
+## **What is algorithm?**
 
-## **Thuật toán là gì?**
+Basically whenever we want to solve a problem we will need a set of steps to follow to solve that problem. These steps are called algorithms.
 
-Đại loại là bất cứ khi nào chúng ta muốn giải quyết một vấn đề thì chúng ta sẽ xác định một tập hợp các bước cần phải tuân theo để giải quyết vấn đề đó. Các bước này được gọi chung là thuật toán.
+Example: Given an integer array, let's sort them in ascending order. 
 
-Ví dụ: Cho 1 mảng số nguyên, sắp xếp theo tứ tự tăng dần. Sẽ có rất nhiều thuật toán mà sau này mình sẽ đi vào chi tiết từng thuật ở các bài tiếp theo để giải quyết vấn đề này. Như: QuickSort, MergeSort, HeapSort, BubbleSort, InsertionSort,...
+There will be many algorithms to solve this problem: QuickSort, MergeSort, HeapSort, BubbleSort, InsertionSort,...
 
-Kết quả của các thuật toán này sẽ như nhau nhưng hiệu suất của từng thuật toán sẽ khác nhau.
+I will go into detail for each algorithm in the next articles.
 
-Vậy làm sao chúng ta biết được thuật toán nào có hiệu suất tốt hơn, thuật toán nào chạy nhanh hơn, thuật toán nào dùng ít không gian bộ nhớ hơn?
+The results of these algorithms will be the same but the performance of each algorithm will be different. 
+
+So how do we know which algorithm is performing better, which one runs faster, which one uses less memory space?
 
 ## **Big-O notation?**
 
-Big-O là một ký hiệu toán học cho thấy mức độ hiệu quả của thuật toán trong trường hợp xấu nhất liên quan đến kích thước đầu vào của nó (input size). Để đo lường độ hiệu quả của một thuật toán, chúng ta cần xem xét hai điều:
+Big-O is a mathematical symbol that shows the efficiency of an algorithm in the worst-case. To measure the efficiency of an algorithm, we need to consider two things:
 
-* **Time Complexity (TC):** thời gian cần thiết để chạy một thuật toán.
-* **Space Complexity (SC):** bộ nhớ yêu cầu để chạy thuật toán đó.
+* **Time Complexity (TC):** quantifies the amount of timetaken by an algorithm to run as a function of the length of the input
+* **Space Complexity (SC):** quantifies the amount of space or memory taken by an algorithm to run as a function of the length of the input.
 
-Trong một số trường hợp chúng ta sẽ phải đánh đổi, hoặc là tăng SC để có TC nhanh hơn, hoặc là chấp nhận TC lớn hơn nhưng SC nhỏ hơn.
-
-
+In some cases we will have to trade, either increase SC for faster or smaller SC but slower.
 
 ## **Time complexity?**
 
-Vậy làm sao biểu thị Time Complexity thông qua Big-O? Tính Time Complexity như thế nào?
+So, how to denote Time Complexity via Big-O? How to calculate Time Complexity?
 
 ```javascript
-funtion printArr(arr) {
-  for (let i=0; i<arr.length; i++) {
-    console.log(arr[i]);
-  }
+funtion hello(arr) {
+  console.log('Hello world!');
 }
 ```
+
+In above code 'Hello World!' print only once. So, time complexity is constant: O(1).
