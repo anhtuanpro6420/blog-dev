@@ -37,9 +37,19 @@ In some cases we will have to trade, either increase SC for faster or smaller SC
 So, how to denote Time Complexity via Big-O? How to calculate Time Complexity?
 
 ```javascript
-funtion hello(arr) {
+funtion hello() {
   console.log('Hello world!');
 }
 ```
 
 In above code 'Hello World!' print only once. So, time complexity is constant: O(1).
+
+But this function bellow print n times, depending on the length of the input array. So, the time complexity is linear time: O(n).
+
+```javascript
+funtion printArr(arr) {
+  for (let i=0; i<arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+```
