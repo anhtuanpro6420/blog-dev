@@ -1,17 +1,22 @@
 ---
 template: post
-title: Độ phức tạp của thuật toán
-slug: big-o-time-complexity-space-complexity
+title: The complexity of the algorithm
+slug: the-complexity-of-the-algorithm
 draft: false
 date: 2020-04-13T08:33:16.738Z
-description: Độ phức tạp của thuật toán!
+description: >-
+  Basically, whenever we want to solve a problem we will need a set of steps to
+  follow to solve that problem. These steps are called algorithms.
+
+  So how do we know which algorithm is performing better, which one runs faster,
+  which one uses less memory space
 category: Data Structure and Algorithm
 tags:
   - Data Structure and Algorithm
 ---
 ## **What is algorithm?**
 
-Basically whenever we want to solve a problem we will need a set of steps to follow to solve that problem. These steps are called algorithms.
+Basically, whenever we want to solve a problem we will need a set of steps to follow to solve that problem. These steps are called algorithms.
 
 Example: Given an integer array, let's sort them in ascending order. 
 
